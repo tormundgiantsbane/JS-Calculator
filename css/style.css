@@ -1,0 +1,42 @@
+.btn-primary{
+  width: 50px;
+  height: 50px;
+  background-color: #1d6df7;
+}
+.btn-warning{
+  width: 100px;
+  height: 50px;
+  background-color: orange;
+}
+
+.col-sm-{
+  margin-bottom: 2px;
+}
+
+.operator{
+  background-color: #124399;
+  border-color: #124399;
+}
+
+.calculator{
+  position: fixed; /* or absolute */
+  top: 10%; /* change back to 50% when done, it's just easier to debug this way..*/
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.outputs{
+  border: 0.5px solid black;
+  margin-bottom: 2px;
+}
+
+#calc-output{
+  display: inline-block;
+    line-height: 0.75em;
+  font-size: 125%;
+}
+
+#calc-full-output{
+    line-height: 0.85em;
+}
